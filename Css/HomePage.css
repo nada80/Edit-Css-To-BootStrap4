@@ -1,0 +1,112 @@
+
+.container{width: 1100px; margin: auto;}
+* {
+    box-sizing: border-box;
+  }
+
+/*start navbar*/
+a{
+  cursor:pointer;
+}
+.mystyle div , table{
+    box-shadow: 2px 2px 2px #c9cbcc;
+    border-radius: 3px;
+}
+button{margin-top: 2%; border: none}
+.mystyle
+{
+    border:none;
+    height:auto;
+    width:33.33%px;
+}
+.line{
+    height:0px;
+    width:1px;
+    border-bottom:1px solid #FF8400;
+    animation:  increase 3s; 
+    animation-fill-mode: forwards;
+  }
+  
+  
+  @keyframes increase {
+      100% {
+          width: 40px;
+      }
+  }
+
+ul li a:hover ,.nav-item.active ,.nav-item.active .nav-link,  .navbar-brand:hover{
+    color:#FF8400 !important;
+} 
+/*End navbar*/
+
+/*Start slider*/
+ .btnn {
+background-image: url("../Resources/ll.jpg");  
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;  
+height: 500px;
+margin-top: -1.5%;
+max-width: 100%;
+overflow: hidden;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+@import "font.css";
+
+
+@media only screen and (max-width: 1199px) {
+  .unbreakable-container  {
+      font-size: 1vw; 
+      word-wrap: break-all;
+ 
+}
+}
+  .btnn button{
+  background:none;
+  color: #bdbdbd;
+  width: 160px;
+  font-size:20px;
+  border:1px solid #bdbdbd;
+  float: left;
+ margin-left: 25%;
+  padding: 1.5%;
+  font-size: 70%;
+  cursor:pointer;
+  margin-top: 30%;;
+
+  }
+  .btnn .dow {background-color: #ea8a15; color: #FFF; border:none;}
+
+/* End slider */
+
+/* Start main */
+.fpr
+ {
+   text-align: center;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   margin-left:5%;
+   font-size:90%; 
+   color:black; 
+   font-size:180%; font-weight: 10; 
+  }
+/* End main */
+
+
+
